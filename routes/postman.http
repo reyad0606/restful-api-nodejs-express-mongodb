@@ -1,0 +1,20 @@
+GET http://localhost:3000/posts/ HTTP/1.1
+content-type: application/json
+
+
+###
+
+POST http://localhost:3000/posts/ HTTP/1.1
+content-type: application/json
+
+{
+"title": "my 3455 post",
+"description": "Work of my halal life",
+"userName": "kutkut",
+"cellPhone": "8454186163"
+}
+
+###
+DELETE http://localhost:3000/posts/602f657e32bea10a8eb89923 HTTP/1.1
+content-type: application/json
+
