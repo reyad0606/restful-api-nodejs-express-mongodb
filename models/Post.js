@@ -9,6 +9,7 @@ const PostSchema = mongoose.Schema({
   },
   userName: String,
   cellPhone: Number,
+
 });
 
 module.exports = mongoose.model('Posts', PostSchema);
